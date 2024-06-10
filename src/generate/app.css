@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.design {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0 50px 0 50px;
+}
+
+.generate {
+    width: 700px;
+    background-color: rgba(255, 255, 255, 0.146);
+    padding: 20px;
+    display: flex;
+}
+
+.card {
+    width: 100%;
+    padding: 10px;
+}
+
+.check {
+    color: rgb(32, 219, 32);
+    display: block;
+}
+
+input[type='button'], button[type='button'] {
+    display: block;
+    border: none;
+    padding: 10px 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: rgba(0, 128, 0, 0.331);
+    color: rgba(255, 255, 255, 0.762);
+}
+
+input[type='text'] {
+    display: inline-block;
+    border: none;
+    padding: 3px 6px;
+    margin-top: 20px;
+    border-radius: 5px;
+    height: 40px;
+    width: 70%;
+}
+
+input[type='button']:hover , button[type='button']:hover {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+i {
+    color: rgba(255, 255, 255, 0.67);
+    cursor: pointer;
+    padding: 3px 5px;
+}
+
+i:hover {
+    color: white;
+}
